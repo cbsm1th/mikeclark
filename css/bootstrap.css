@@ -6163,86 +6163,85 @@ button.close {
     display: none !important;
   }
 }
-.loaf {
-  text-align: center;
-  margin-bottom: 30px;
-}
-.loaf span {
-  font-size: 3em;
-}
-.loaf h2 {
-  margin: 0;
-  padding: 0;
-}
-/* Space out content a bit */
+html,
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 100%;
 }
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
+.carousel,
+.item,
+.active {
+  height: 100px;
 }
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
 }
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  padding-bottom: 19px;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
+.carousel-inner {
+  height: 100%;
 }
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 940px;
-  }
-}
-.container-narrow > hr {
-  margin: 30px 0;
-}
-/* Main marketing message and sign up button */
-.jumbotron {
+.carousel-control {
+  top: 49%;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+  margin-top: -20px;
+  font-size: 100px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #ffffff;
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  background: transparent;
+  border: 0;
 }
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
+.light-color,
+.light-color a {
+  color: #f7f7f7;
+  text-decoration: none;
 }
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+.blocky {
+  margin-left: 8%;
+  margin-top: 0%;
 }
-.marketing p + h4 {
-  margin-top: 28px;
+.blocky h1,
+.blocky h2 {
+  background-color: rgba(1, 240, 1, 0.3);
+  display: inline;
+  text-transform: none;
+  font-weight: 800;
+  color: white;
+  line-height: 52px;
 }
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+.blocky h1 span,
+.blocky h2 span {
+  padding: 20px;
+  color: #fff;
+}
+.carousel-pills {
+  bottom: 15%;
+  display: block;
+  left: 0;
+  *position: absolute;
+  position: relative;
+  right: 10px;
+  text-align: center;
+}
+.carousel-pills span {
+  background: none repeat scroll 0 0 #222222;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 12px;
+  margin: 0 5px;
+  width: 12px;
+}
+.carousel-pills span.active-pill {
+  background-color: #F8F8F8;
+  background-image: -moz-linear-gradient(center top, #ffffff, #eeeeee);
+  background-repeat: repeat-x;
+}
+.carousel-pills span:hover {
+  background: none repeat scroll 0 0 #EEEEEE;
 }
