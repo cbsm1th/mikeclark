@@ -17,6 +17,11 @@ module.exports = function(grunt) {
         files: {
           'js/bootstrap.min.js': ['dev/components/bootstrap/js/carousel.js']
         }
+      },
+      jquery: {
+        files: {
+          'js/jquery.js': ['dev/components/jquery/dist/jquery.js']
+        }
       }
     },
   });
