@@ -3,7 +3,7 @@ $('.carousel').carousel({
 })
 
 function init_map() {
-        var var_location = new google.maps.LatLng(45.430817,12.331516);
+        var var_location = new google.maps.LatLng(34.7922407,-92.2594023);
  
         var var_mapoptions = {
           center: var_location,
