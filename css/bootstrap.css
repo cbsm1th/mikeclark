@@ -6170,7 +6170,7 @@ body {
 .carousel,
 .item,
 .active {
-  height: 100px;
+  height: 400px;
 }
 .fill {
   width: 100%;
@@ -6180,6 +6180,11 @@ body {
 }
 .carousel-inner {
   height: 100%;
+}
+.carousel-inner h1 {
+  font-size: 55px;
+  color: white;
+  margin-left: 10px;
 }
 .carousel-control {
   top: 49%;
@@ -6202,7 +6207,7 @@ body {
 }
 .blocky {
   margin-left: 8%;
-  margin-top: 1%;
+  margin-top: 100px;
 }
 .blocky h1,
 .blocky h2 {
@@ -6260,6 +6265,9 @@ h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+.navbar {
+  margin-bottom: 0px;
+}
 .lead {
   font-size: 18px;
   font-weight: 400;
@@ -6272,11 +6280,12 @@ h6 {
   color: #f8f8f8;
   background: url(../img/truck2.jpg) no-repeat center center;
   background-size: cover;
-  height: 400px;
+  height: 100vh;
+  width: 100%;
 }
 .intro-message {
   position: relative;
-  padding-top: 50px;
+  padding-top: 30vh;
   padding-bottom: 10%;
 }
 .intro-message > h1 {
