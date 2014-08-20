@@ -24,12 +24,19 @@ module.exports = function(grunt) {
         }
       }
     },
+    watch: {
+      less: {
+        files: 'dev/less/**/*.less',
+        tasks: ['css']
+      }
+    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('css', ['less']);
   grunt.registerTask('js', ['uglify']);
-
+  grunt.registerTask('w', ['watch']);
 };
