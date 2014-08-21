@@ -6170,7 +6170,11 @@ body {
 .carousel,
 .item,
 .active {
-  height: 400px;
+  height: 200px;
+}
+.item {
+  float: right;
+  width: 66%;
 }
 .fill {
   width: 100%;
@@ -6181,10 +6185,15 @@ body {
 .carousel-inner {
   height: 100%;
 }
-.carousel-inner h1 {
-  font-size: 55px;
-  color: white;
-  margin-left: 10px;
+#servicesWrap {
+  width: 33%;
+  margin-top: 47px;
+  float: left;
+}
+#servicesWrap h1 {
+  margin-left: 100px;
+  font-size: 50px;
+  color: black;
 }
 .carousel-control {
   top: 49%;
@@ -6202,26 +6211,26 @@ body {
 }
 .light-color,
 .light-color a {
-  color: #f7f7f7;
+  color: black;
   text-decoration: none;
 }
 .blocky {
-  margin-left: 8%;
-  margin-top: 100px;
+  margin-left: 0%;
+  margin-top: 50px;
 }
 .blocky h1,
 .blocky h2 {
-  background-color: rgba(241, 116, 116, 0.3);
   display: inline;
   text-transform: none;
   font-weight: 800;
-  color: white;
+  color: black;
   line-height: 52px;
+  margin-right: 50px;
 }
 .blocky h1 span,
 .blocky h2 span {
   padding: 20px;
-  color: #fff;
+  color: black;
 }
 .carousel-pills {
   bottom: 15%;
@@ -6393,9 +6402,11 @@ p.copyright {
   margin: 15px 0 0;
 }
 #location {
-  height: 400px;
+  height: 650px;
+  background-color: black;
+  color: white;
 }
 #map-container {
-  height: 200px;
+  height: 450px;
   width: 100%;
 }

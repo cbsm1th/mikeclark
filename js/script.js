@@ -7,7 +7,8 @@ function init_map() {
  
         var var_mapoptions = {
           center: var_location,
-          zoom: 14
+          zoom: 14,
+          scrollwheel: false
         };
  
         var var_marker = new google.maps.Marker({
