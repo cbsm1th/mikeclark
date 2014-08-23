@@ -6425,20 +6425,28 @@ p.copyright {
   margin: 15px 0 0;
 }
 #location {
-  height: 550px;
-  background-color: black;
+  height: 100vh;
+  background-color: grey;
   color: white;
 }
 #map-container {
-  height: 450px;
+  height: 80%;
   width: 100%;
 }
 .space-a {
-  height: 100%;
   background-image: url('/img/boxes.jpg');
   background-size: cover;
   color: white;
+  min-height: 100vh;
 }
 #mct {
   background: rgba(0, 0, 0, 0.3);
+}
+.space-a1 {
+  min-height: 100vh;
+}
+.space-foot {
+  background-color: black;
+  color: grey;
+  height: 50px;
 }
