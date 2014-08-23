@@ -6288,7 +6288,7 @@ html {
   height: 100%;
 }
 .container {
-  max-width: 900px;
+  max-width: 700px;
 }
 body,
 h1,
@@ -6425,11 +6425,20 @@ p.copyright {
   margin: 15px 0 0;
 }
 #location {
-  height: 650px;
+  height: 550px;
   background-color: black;
   color: white;
 }
 #map-container {
   height: 450px;
   width: 100%;
+}
+.space-a {
+  height: 100%;
+  background-image: url('/img/boxes.jpg');
+  background-size: cover;
+  color: white;
+}
+#mct {
+  background: rgba(0, 0, 0, 0.3);
 }
