@@ -1,6 +1,25 @@
-$('.carousel').carousel({
-  interval: 1000
-})
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+      pagination: false,
+      rewindNav: false,
+      autoPlay: true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
 
 function init_map() {
         var var_location = new google.maps.LatLng(34.7922407,-92.2594023);
