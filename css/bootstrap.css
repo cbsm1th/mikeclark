@@ -6148,6 +6148,10 @@ body {
 }
 #the-rest {
   padding: 30px;
+  min-height: 90vh;
+}
+#the-rest div {
+  border-radius: 3px;
 }
 .space-a {
   background-image: url('/img/boxes.jpg');
@@ -6164,5 +6168,4 @@ body {
 .space-foot {
   background-color: black;
   color: grey;
-  height: 50px;
 }
