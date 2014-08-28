@@ -6131,8 +6131,14 @@ p.copyright {
 #mct-logo {
   height: 50px;
 }
+body {
+  background-color: #e4e4e4;
+}
 .container {
-  max-width: 800px;
+  max-width: 900px;
+}
+#the-rest {
+  padding: 30px;
 }
 .space-a {
   background-image: url('/img/boxes.jpg');

@@ -5,6 +5,7 @@
 
 @navbar-default-link-color: rgb(10, 67, 137);
 @the-grey: rgb(228, 228, 228);
+@content-width: 800px;
 
 @navbar-default-link-active-bg: @navbar-default-link-color;
 @navbar-default-link-hover-bg:@navbar-default-link-color;
@@ -65,8 +66,15 @@
 @import 'parts/map';
 @import 'parts/navbar';
 
+body{
+	background-color: @the-grey;
+}
 .container{
-    max-width: 800px;
+    max-width: 900px;
+}
+
+#the-rest{
+	padding: 30px;
 }
 
 .space-a{
