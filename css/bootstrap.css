@@ -5974,7 +5974,11 @@ button.close {
 }
 #owl-demo {
   background-color: #0a4389;
-  color: #e4e4e4;
+  color: #fef11f;
+}
+#serv-prov {
+  color: #0a4389;
+  margin: 0;
 }
 body,
 html {
@@ -6130,6 +6134,11 @@ p.copyright {
 }
 #mct-logo {
   height: 50px;
+}
+#about {
+  margin-top: 30px;
+  background-color: #0a4389;
+  color: white;
 }
 body {
   background-color: #e4e4e4;

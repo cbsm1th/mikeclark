@@ -5,9 +5,11 @@
 
 @navbar-default-link-color: rgb(10, 67, 137);
 @the-grey: rgb(228, 228, 228);
-@content-width: 800px;
+@the-yellow: rgb(254, 241, 31);
+@the-width: 900px;
 
 @navbar-default-link-active-bg: @navbar-default-link-color;
+@the-blue: @navbar-default-link-color;
 @navbar-default-link-hover-bg:@navbar-default-link-color;
 @navbar-default-link-hover-color: white;
 @navbar-default-link-active-color: white;
@@ -65,12 +67,13 @@
 @import 'parts/layout';
 @import 'parts/map';
 @import 'parts/navbar';
+@import 'parts/about';
 
 body{
 	background-color: @the-grey;
 }
 .container{
-    max-width: 900px;
+    max-width: @the-width;
 }
 
 #the-rest{
